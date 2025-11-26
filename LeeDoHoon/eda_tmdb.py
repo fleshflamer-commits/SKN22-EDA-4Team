@@ -37,10 +37,9 @@ os.makedirs('images', exist_ok=True)
 plt.rcParams['font.family'] = 'Malgun Gothic'  # Windows
 plt.rcParams['axes.unicode_minus'] = False
 
-# 데이터 로드 (스크립트 위치 기준으로 프로젝트 루트의 data 폴더 참조)
+# 데이터 로드 (스크립트가 있는 폴더의 data 하위 폴더 기준)
 base_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.dirname(base_dir)
-data_path = os.path.join(project_root, 'data', 'tmdb_combined_10k.csv')
+data_path = os.path.join(base_dir, 'data', 'tmdb_combined_10k.csv')
 df = pd.read_csv(data_path)
 
 print(f"데이터 로드 완료: {data_path}")
