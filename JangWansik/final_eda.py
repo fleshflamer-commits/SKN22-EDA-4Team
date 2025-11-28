@@ -117,9 +117,9 @@ plt.figure(figsize=(14, 8))
 # 배경 (일반 작품 - 중위권 포함)
 plt.scatter(df['vote_count'], df['vote_average'], alpha=0.15, color='#CCCCCC', label='일반 작품', s=15, zorder=1)
 # 인기작 (오른쪽 끝)
-plt.scatter(popular_recs['vote_count'], popular_recs['vote_average'], alpha=0.6, color='#5DADE2', label='인기 명작', s=40, zorder=2)
+plt.scatter(popular_recs['vote_count'], popular_recs['vote_average'], alpha=0.6, color='#EC7063', label='인기 명작', s=40, zorder=2)
 # 숨은 명작 (왼쪽 끝)
-plt.scatter(hidden_gems['vote_count'], hidden_gems['vote_average'], alpha=0.8, color='#EC7063', label='숨은 명작', s=60, zorder=3, edgecolors='none')
+plt.scatter(hidden_gems['vote_count'], hidden_gems['vote_average'], alpha=0.8, color='#5DADE2', label='숨은 명작', s=60, zorder=3, edgecolors='none')
 
 # 기준선
 plt.axvline(x=m_popular, color='b', linestyle='--', label='인기작 기준')
