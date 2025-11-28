@@ -26,7 +26,7 @@
 * **데이터 규모:** 인기 영화 및 TV 프로그램 데이터 약 10,000건
 * **대상 플랫폼:** Netflix, Watcha, Disney+, Wavve, Amazon Prime Video 등
 * **전처리 (Preprocessing):**
-    * `Netflix Standard with Ads`와 `Netflix` 데이터를 단일 **'Netflix'**로 통합
+    * `Netflix Standard with Ads`와 `Netflix` 데이터를 단일 **'Netflix'** 로 통합
     * 장르 및 제공사 정보 결측치 AI 검색 및 크로스 체크로 보완
 
 ---
