@@ -71,7 +71,7 @@ $$W = \frac{v}{v+m} \cdot R + \frac{m}{v+m} \cdot C$$
 * **Watcha/Crunchyroll:** 애니메이션 특화
 * **Disney+:** 가족/판타지 강세
 * **Netflix:** 전 장르 고루 분포
-![Genre Heatmap](./images/05_provider_genre_heatmap)
+![Genre Heatmap](./images/05_provider_genre_heatmap.jpg)
 
 ### 4.5. 추천 그룹별 OTT 보유 비중
 넷플릭스는 '인기작' 보유율이 높지만, **'숨은 명작'을 찾기 위해서는 Watcha와 Wavve가 더 유리**하다는 결과가 도출되었습니다.
